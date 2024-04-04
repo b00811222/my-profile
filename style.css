@@ -1,0 +1,112 @@
+body {
+    background-color: rgb(245 245 245);
+    color: rgb(30, 30, 30);
+    font-family: serif;
+    line-height: 1.5;
+}
+
+h1 {
+    color: rgb(148 112 218);
+    font-family: Helvetica;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 36px;
+    margin: 10px 0;
+}
+
+h2 {
+    color: rgb(148 112 218);
+    font-family: Helvetica;
+    letter-spacing: 0.03px;
+    margin: 20px 0;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(245 245 245);
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: rgb(148 112 218);
+}
+
+.container {
+    max-width: 700px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+
+
+
+
+#profile {
+    border-radius: 50%;
+    border: 2px solid rgb(245 245 245);
+    box-shadow: 0px 10px 100px rgb(148 112 218);
+    margin: 20px 0;
+}
+
+.card-white {
+    background-color: rgb(245 245 245);
+    padding: 15px;
+    box-shadow: 0px 10px 30px rgb(148 112 218); 
+    border-radius: 4px; 
+    margin: 40px 0; 
+    text-align: center;
+}
+
+.btn-purple {
+    background-color: rgb(148 112 218); 
+    color: rgb(245 245 245);
+    padding: 15px 30px; 
+    border-radius: 5px;
+    margin-top: 20px; 
+}
+
+.btn-purple:hover {
+    background-color: rgb(245 245 245); 
+    color: rgb(148 112 218);
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.list-inline li {
+    display: inline;
+    padding: 10px;
+}
+
+.list-inline i {
+    font-size: 50px; 
+    color: rgb(148 112 218);
+}
+
+.list-inline i:hover {
+    font-size: 50px; 
+    color: rgb(217 198 255);
+}
+
+
+#introduction p {
+    margin-bottom: 35px;
